@@ -1,0 +1,13 @@
+pipeline {
+  agent any
+  stages {
+    stage('阶段 1-1') {
+      steps {
+        echo 'hello CODING'
+        echo 'hello CODING'
+        sh 'echo hello CODING'
+      }
+    }
+
+  }
+}
