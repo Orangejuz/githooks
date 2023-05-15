@@ -16,6 +16,7 @@ pipeline {
       stage('自定义构建过程') {
         steps {
           echo '自定义构建过程开始'
+          sh 'echo hello CODING'
         }
       }
 
